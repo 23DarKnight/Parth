@@ -12,6 +12,3 @@ for y in {27816..27802}; do
 		echo "\n $y/$x.png    --------------- $count/$total\n"
 	done
 done
-
-rm /root/down.sh
-systemctl stop down
